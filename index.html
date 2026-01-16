@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gride layout</title>
     <style>
+
+        .box img:hover{
+            transform: scale(1.05);
+            transition: all 0.3s ease-in-out;
+            z-index: 10;
+            cursor: pointer;
+            box-shadow: 0 12px 5px rgba(0, 0, 0, 0.399);
+            border: 5px solid rgba(255, 255, 255, 0.855);
+            border-radius: 10px;
+        }
         .container{
             display: grid;
             gap: 3px;
@@ -86,17 +96,17 @@
 </head>
 <body>
     <div class="container">
-        <div class="big-layout"><img src="images/A.jpg" alt=""></div>
-        <div class="medium-layout"><img src="images/B.jpg" alt=""></div>
-        <div class="medium-layout"><img src="images/C.jpg" alt=""></div>
-        <div class="duble-layout "><img src="images/D.jpg" alt=""></div>
-        <div class="duble-layout"><img src="images/E.jpg" alt=""></div>
-        <div class="medium-layout"><img src="images/F.jpg" alt=""></div>
-        <div class="small-layout"><img src="images/G.jpg" alt=""></div>
-        <div class="small-layout"><img src="images/G.jpg" alt=""></div>
-        <div class="medium-layout"><img src="images/I.jpg" alt=""></div>
-        <div class="small-layout aftar-duble-layout"><img src="images/G.jpg" alt=""></div>
-        <div class="small-layout aftar-duble-layout"><img src="images/G.jpg" alt=""></div>
+        <div class="big-layout box"><img src="images/A.jpg" alt=""></div>
+        <div class="medium-layout box"><img src="images/B.jpg" alt=""></div>
+        <div class="medium-layout box"><img src="images/C.jpg" alt=""></div>
+        <div class="duble-layout box"><img src="images/D.jpg" alt=""></div>
+        <div class="duble-layout box"><img src="images/E.jpg" alt=""></div>
+        <div class="medium-layout box"><img src="images/F.jpg" alt=""></div>
+        <div class="small-layout box"><img src="images/G.jpg" alt=""></div>
+        <div class="small-layout box"><img src="images/G.jpg" alt=""></div>
+        <div class="medium-layout box"><img src="images/I.jpg" alt=""></div>
+        <div class="small-layout aftar-duble-layout box"><img src="images/G.jpg" alt=""></div>
+        <div class="small-layout aftar-duble-layout box"><img src="images/G.jpg" alt=""></div>
     </div>
 </body>
 </html>
